@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Clone Repository') {
 steps {
-git url: 'https://github.com/Ahmar1232/jenkins-website-ci.git'
+git url: 'https://github.com/Ahmar1232/jenkins-website-ci.git',branch: 'main'
 }
 }
 stage('Build Website') {
